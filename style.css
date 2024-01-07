@@ -1,0 +1,89 @@
+* {
+  background-color: #181a1b;
+  color: #ffffff8e;
+  font-size: 1.5rem;
+  text-align: center;
+  size: 100vh;
+}
+
+.doller{
+  font-size: 0.75rem;
+  color: red;
+}
+
+.FinalHeading{
+  text-align: left;
+  color: rgb(170, 43, 43);
+  padding-bottom: 17px;
+}
+
+#gifDiv{
+ width: 75%;
+}
+
+#highlighted-elem {
+  color: red;
+  background-color: blanchedalmond;
+  border-style: solid;
+  border-color: red;
+}
+
+.redBackground {
+  background-color: red;
+}
+
+.greenBackground {
+  background-color: green;
+}
+
+.yellowText {
+  color: yellow;
+}
+
+.brownText {
+  color: brown;
+}
+
+.thickBorder {
+  border: 5px solid black;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#mainContainer {
+  margin-top: 25vh;
+}
+
+.progress {
+  margin-left: 30%;
+  margin-top: 1.25rem;
+  width: 40%;
+}
+
+#terminal {
+  text-align: left;
+  font-family: "Courier New", monospace;
+  font-size: 0.75rem;
+  padding: 20px;
+  color: #00ff00;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+}
+
+.cursor {
+  display: inline-block;
+  width: 7px;
+  height: 20px;
+  background-color: #00ff00;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
